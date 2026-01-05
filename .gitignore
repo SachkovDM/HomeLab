@@ -1,0 +1,60 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+terraform.tfvars.backup
+
+# Talos
+talosconfig
+kubeconfig
+
+# Certificates and keys
+*.pem
+*.key
+*.crt
+*.ca
+certs/
+*.p12
+*.pfx
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+
+# Downloaded files
+*.iso
+*.img
+*.qcow2
+*.raw
+
+# Local development
+.env
+.env.local
+.env.*.local
+
+# Documentation build
+docs/_build/
+site/
